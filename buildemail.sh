@@ -1,6 +1,6 @@
-folder=libs/email
-fileName=z
-imageHost=https://raw.githubusercontent.com/linksgo2011/shaogefenhao-v2/master/src/$folder
+folder=architecture
+fileName=组合与聚合
+imageHost=https://raw.githubusercontent.com/LogosFu/doc/main/src/$folder
 rm -rf build
 mkdir build
 
