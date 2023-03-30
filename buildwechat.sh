@@ -1,10 +1,11 @@
 folder=architecture
-fileName=组合与聚合
+fileName=bigarrgregate
 imageHost=https://raw.githubusercontent.com/LogosFu/doc/main/src/$folder
 rm -rf build
 mkdir build
 
 cat src/${folder}/${fileName}.md > build/output.md
+echo  "src/${folder}/${fileName}.md"
 echo "build md doc success!"
 sed -i "" "s@./$fileName@$imageHost/$fileName@g" build/output.md
 echo "get img success!"
